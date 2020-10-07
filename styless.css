@@ -1,26 +1,30 @@
 /*main style*/
+*{
+    font-family: "Montserrat", sans-serif;
+}
 body{
-    font-family: "Ribeye Marrow",sans-serif;
-    font-size: 30px;
+    
+    font-size: 15px;
 }
 /*nav style*/
 .nav-wrapper{
     display: flex;
     
     justify-content: space-between;
-    padding:30px;
+    padding:10px;
+    margin-bottom: px;
 }
 .left-side{
     display: flex;
 }
 .nav-wrapper>.left-side> div{
-   margin-right: 20px;
+   margin-right: 10px;
     
    text-transform: uppercase;
 }
 
 .nav-link-wrapper{
-    height: 40px;
+    height: 20px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -50,7 +54,7 @@ body{
     position: relative;/*flexibilty in positioning item images above images */
 }
 .portofolio-img-background{
-    height: 1200px;
+    height: 350px;
     width: 100%;
     background-size: cover;/*to make img fit the size that want*/
     background-position: center;
@@ -65,27 +69,21 @@ body{
     align-items: center;/*top to bottom align center*/
     height: 100%;
     text-align: center;
-    padding-left:150px ;
-    padding-right: 100px;
+    left: -40px;
+    padding-left:50% ;
+    padding-right: 50%;
 }
 .logo-wrapper img{
     
-    height: 200px;
+    height: 100px;
    
-    
+}
    
-/*.logo-wrapper1 img{
-        width: 50% ;
-        
-        margin-bottom:20px ;*/
-}/*needs to be more specific with selector*/
 .img-text-wrapper .subtitile{
     transition: 0.5s;
-    font-weight: 700;
     color: transparent;
 }
 .img-text-wrapper:hover .subtitile{/*img texxt wrapper hover mean only when img text is hover*/
-    font-weight: 700;
     color: lightseagreen;
 }
 .img-darken{
